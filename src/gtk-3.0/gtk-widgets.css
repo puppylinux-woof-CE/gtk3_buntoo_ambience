@@ -43,15 +43,13 @@
 selection,
 *:selected,
 .view:selected {
-	background: #526f88;
-	color: white;
+	background: @theme_selected_bg_color;
 }
 selection:focus,
 *:selected:focus,
 .view:selected:focus,
 *:focus *:selected {
-	background: #526f88;
-	color: white;
+	background: @theme_selected_bg_color;
 }
 .rubberband,
 .view.rubberband,
@@ -70,7 +68,7 @@ button.flat {
 }
 button:not(.flat),
 .button {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 	border: 1px solid #989B98;
 	border-radius: 3px;
 	padding: .35em;
@@ -110,7 +108,7 @@ button.toggle:checked:disabled  {
  * scrollbars *
  **************/
 scrollbar button {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 	border: 1px solid #989B98;
 	border-radius: 3px;
 	padding: .35em;
@@ -233,7 +231,7 @@ spinbutton * {
 	background: @theme_base_color;
 }
 spinbutton button {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 }
 
 /**************
@@ -277,8 +275,8 @@ menubar > menuitem {
 	border-radius: 3px;
 }
 menubar > menuitem:hover {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #fed5aa;
+	border: 1px solid #989b98;
 }
 menuitem {
 	margin: 1px;
@@ -287,8 +285,8 @@ menuitem {
 	border-radius: 3px;
 }
 menuitem:hover {
-	background-color: #D2D4D2;
-	border: 1px solid #989B98;
+	background-color: #fed5aa;
+	border: 1px solid #989b98;
 }
 menu separator {
 	border-image: url("assets/separator-horizontal.png") 1 / 1px stretch;
@@ -353,28 +351,28 @@ notebook.frame > .frame {
 }
 notebook header.top tab,
 notebook.frame > .frame.top {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 	border: 1px solid #989B98;
 	border-radius: 3px;
 	padding: 5px;
 }
 notebook header.bottom tab,
 notebook.frame > .frame.bottom {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 	border: 1px solid #989B98;
 	border-radius: 3px;
 	padding: 5px;
 }
 notebook header.left tab,
 notebook.frame > .frame.left {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 	border: 1px solid #989B98;
 	border-radius: 3px;
 	padding: 5px;
 }
 notebook header.right tab,
 notebook.frame > .frame.right {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 	border: 1px solid #989B98;
 	border-radius: 3px;
 	padding: 5px;
@@ -423,12 +421,12 @@ expander arrow:checked {
  * CSD header and window border *
  ********************************/
 headerbar {
-	background-color: #e2e2de;
+	background-color: @theme_bg_color;
 	padding: 7px;
 }
 decoration {
-	background-color: #D2D4D2;
-	border: 1px solid black;
+	background-color: #FCF9F7;
+	border: 1px solid #989B98;
 }
 
 /****************************
@@ -599,7 +597,7 @@ scale trough,
 treeview.view.trough,
 treeview.view.trough:selected,
 scrollbar {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 	border: 1px solid #989B98;
 	border-radius: 3px;
 }
@@ -715,13 +713,13 @@ levelbar block.filled {
  * switch *
  **********/
 switch {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 	border: 1px solid #989B98;
 	border-radius: 3px;
 	min-height: 2em;
 }
 switch slider {
-	background-color: #D2D4D2;
+	background-color: #FCF9F7;
 	border: 1px solid #989B98;
 	border-radius: 3px;
 	margin: 2px;

@@ -1,6 +1,6 @@
 SHELL     = /bin/sh
 PREFIX    = /usr
-THEMENAME = Flat-grey-rounded
+THEMENAME = buntoo-ambience
 
 .PHONY: install uninstall watch
 

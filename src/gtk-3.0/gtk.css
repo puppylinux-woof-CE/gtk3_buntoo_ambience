@@ -20,10 +20,10 @@
 
 @define-color theme_base_color white;
 
-@define-color theme_bg_color #EEEEEE;
+@define-color theme_bg_color #FFFEF9;
 @define-color theme_fg_color black;
 
-@define-color theme_selected_bg_color #a9a9a9;
+@define-color theme_selected_bg_color #c97c2b;
 @define-color theme_selected_fg_color black;
 
 @define-color theme_tooltip_bg_color white;
