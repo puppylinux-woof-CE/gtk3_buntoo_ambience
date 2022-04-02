@@ -423,7 +423,7 @@ expander arrow:checked {
  ********************************/
 headerbar {
 	background-color: @theme_bg_color;
-	padding: 7px;
+	padding: 3px;
 }
 decoration {
 	background-color: #FCF9F7;
